@@ -79,6 +79,13 @@ Arduino IDE software for Windows: https://downloads.arduino.cc/arduino-ide/ardui
 
 Arduino IDE software for macOS: https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_macOS_64bit.dmg
 
+## Arduino Online Simulation Tools:
+
+https://tinkercad.com
+
+<img width="897" height="552" alt="image" src="https://github.com/user-attachments/assets/b061e9fb-0d58-444e-a9de-2a790607325a" />
+
+
 ## Arduino Example Code (LED Blinking)
 <img width="440" height="278" alt="image" src="https://github.com/user-attachments/assets/00ec1cb6-d064-4df2-a082-f9b086096871" />
 
