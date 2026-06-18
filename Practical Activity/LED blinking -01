@@ -1,8 +1,9 @@
-This Arduino program demonstrates a simple LED blinking operation using digital pin 3
+/* This Arduino program demonstrates a simple LED blinking operation using digital pin 3
 The setup() function configures pin 3 as an output,
 while the loop() function continuously turns the LED ON and OFF with a 1-second delay, 
 creating a blinking effect.
-```cpp
+*/
+
 void setup() { 
 		pinMode(3, OUTPUT);
 		}
@@ -14,6 +15,6 @@ void loop() {
 	 digitalWrite(3, LOW);
 	 delay(1000); 
 	}
-```
+
 
 
