@@ -77,6 +77,12 @@ Robot arms are mechanical devices designed to simulate human arm movements and p
 ## Arduino Example Code (LED Blinking)
 <img width="440" height="278" alt="image" src="https://github.com/user-attachments/assets/00ec1cb6-d064-4df2-a082-f9b086096871" />
 
+Select board:
+Tools--> Board--> Select board
+
+Select port: 
+Tools --> Serial Port--> COM xx
+
 
 ```cpp
 void setup() {
