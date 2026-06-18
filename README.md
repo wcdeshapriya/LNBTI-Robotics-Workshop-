@@ -1,4 +1,4 @@
-# Introduction to Robotics & IoT Workshop
+#  IoT & Robotics Introductory Workshop
 
 ## Overview
 This document summarizes the Introductory Workshop on Robotics and IoT, conducted to provide foundational knowledge and hands-on exposure to students on modern embedded systems, automation, and connected technologies.
