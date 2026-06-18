@@ -76,6 +76,7 @@ Robot arms are mechanical devices designed to simulate human arm movements and p
 ## Arduino software download:
 
 Arduino IDE software for Windows: https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe
+
 Arduino IDE software for macOS: https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_macOS_64bit.dmg
 
 ## Arduino Example Code (LED Blinking)
