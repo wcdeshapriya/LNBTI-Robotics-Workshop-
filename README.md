@@ -98,6 +98,6 @@ void loop() {
 ```
 ---
 
-👨‍🏫 Author: Mr. W.C. Deshapriya
+# 👨‍🏫 Author: Mr. W.C. Deshapriya
 
 Lecturer | Software Engineer | IoT Consultant  
