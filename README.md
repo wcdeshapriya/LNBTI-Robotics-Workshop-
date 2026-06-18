@@ -50,7 +50,6 @@ These systems include:
 
 ## Robot Systems
 Robot arms are mechanical devices designed to simulate human arm movements and perform automated tasks.
----
 
 ## Robotics Applications
 - Assembly line robots  
@@ -92,4 +91,5 @@ void loop() {
 ---
 
 👨‍🏫 Author: Mr. W.C. Deshapriya
+
 Lecturer | Software Engineer | IoT Consultant  
