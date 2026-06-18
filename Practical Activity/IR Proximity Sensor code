@@ -1,0 +1,22 @@
+IR Proximity Sensor configuration  programme 
+
+```cpp
+int Proxpin = 2;
+int led1 = 3;
+int sensorvalue =0;
+
+void setup() { 
+  pinMode(led1, OUTPUT);  
+  pinMode(Proxpin, INPUT);
+  }
+void loop() {
+ sensorvalue = digitalRead(Proxpin);
+ if(sensorvalue == LOW) {
+    digitalWrite(led1, HIGH);   
+  }
+  else{
+    digitalWrite(led1, LOW);    
+  }
+ }
+```
+
