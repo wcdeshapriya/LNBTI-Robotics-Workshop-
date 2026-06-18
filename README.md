@@ -2,8 +2,6 @@
 
 ## Overview
 This document summarizes the Introductory Workshop on Robotics and IoT, conducted to provide foundational knowledge and hands-on exposure to students on modern embedded systems, automation, and connected technologies.
-
-
 ---
 
 ## Workshop Agenda
@@ -14,7 +12,6 @@ This document summarizes the Introductory Workshop on Robotics and IoT, conducte
 - Applications of Robotics and IoT  
 - Career guidance in Robotics  
 - Hands-on practical sessions  
-
 ---
 
 ## What is IoT?
@@ -24,7 +21,7 @@ These systems include:
 - Sensors (data collection)
 - Communication modules (data transfer)
 - Actuators (control and automation)
-
+---
 ---
 
 ## Sensors Used in Robotics / IoT
@@ -37,8 +34,6 @@ These systems include:
 - Temperature Sensor  
 - Humidity Sensor  
 
----
-
 ## Actuators
 - LED  
 - LCD Display  
@@ -46,20 +41,16 @@ These systems include:
 - Buzzer  
 - Relay  
 
----
-
 ## Controllers
 - PIC Microcontroller  
 - Atmel Microcontroller  
 - Intel Microcontroller  
 - PLC Systems  
 - Raspberry Pi  
-
 ---
 
 ## Robot Systems
 Robot arms are mechanical devices designed to simulate human arm movements and perform automated tasks.
-
 ---
 
 ## Robotics Applications
@@ -68,7 +59,6 @@ Robot arms are mechanical devices designed to simulate human arm movements and p
 - Painting robots  
 - Healthcare surgical robots  
 - Robotic vacuum cleaners  
-
 ---
 
 ## IoT Applications
@@ -77,23 +67,6 @@ Robot arms are mechanical devices designed to simulate human arm movements and p
 - Agricultural monitoring  
 - Healthcare systems  
 - Smart city solutions  
-
----
-
-## Career Opportunities
-
-### Sri Lanka
-- Industrial automation  
-- Agricultural robotics  
-- Healthcare robotics  
-- Robotics education and research  
-
-### Japan
-- Industrial robotics (FANUC, Yaskawa, Kawasaki)  
-- Service robots (hospitality, elder care)  
-- Healthcare robotics  
-- AI-based autonomous systems  
-
 ---
 
 ## Microcontroller Platforms
@@ -101,7 +74,6 @@ Robot arms are mechanical devices designed to simulate human arm movements and p
 - ESP8266 / ESP32  
 - Raspberry Pi  
 - PLC Systems  
-
 ---
 
 ## Arduino Example Code (LED Blinking)
@@ -117,12 +89,8 @@ void loop() {
   digitalWrite(13, LOW);
   delay(1000);
 }
-
 ---
 
-## Instructor
-Mr. W.C. Deshapriya  
-M.Sc. in Applied Electronic  
-B.Sc. (Hons) in Physical Science  
+👨‍🏫 Author
+Mr. W.C. Deshapriya 
 Lecturer | Software Engineer | IoT Consultant  
-Contact: 0713480683 
