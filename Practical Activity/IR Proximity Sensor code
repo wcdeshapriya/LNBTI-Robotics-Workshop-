@@ -1,6 +1,6 @@
-IR Proximity Sensor configuration  programme 
+// IR Proximity Sensor configuration  programme 
 
-```cpp
+
 int Proxpin = 2;
 int led1 = 3;
 int sensorvalue =0;
@@ -18,5 +18,5 @@ void loop() {
     digitalWrite(led1, LOW);    
   }
  }
-```
+
 
