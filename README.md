@@ -73,6 +73,10 @@ Robot arms are mechanical devices designed to simulate human arm movements and p
 - Raspberry Pi  
 - PLC Systems  
 ---
+## Arduino software download:
+
+Arduino IDE software for Windows: https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe
+Arduino IDE software for macOS: https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_macOS_64bit.dmg
 
 ## Arduino Example Code (LED Blinking)
 <img width="440" height="278" alt="image" src="https://github.com/user-attachments/assets/00ec1cb6-d064-4df2-a082-f9b086096871" />
