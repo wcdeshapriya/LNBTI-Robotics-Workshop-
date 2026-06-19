@@ -1,0 +1,55 @@
+// Ultrasonic Sensor + LED + Serial Monitor
+
+int trigPin = 6;
+int echoPin = 7;
+
+long duration;
+int cm;
+
+int led1 = 3;
+
+void setup() {
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  pinMode(led1, OUTPUT);
+
+  // Start Serial Communication
+  Serial.begin(9600);
+
+  Serial.println("Ultrasonic Distance Monitoring Started...");
+}
+
+void loop() {
+
+  // Trigger ultrasonic pulse
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+
+  digitalWrite(trigPin, LOW);
+
+  // Read echo time
+  duration = pulseIn(echoPin, HIGH);
+
+  // Convert to centimeters
+  cm = duration / 29 / 2;
+
+  // Display distance in Serial Monitor
+  Serial.print("Distance: ");
+  Serial.print(cm);
+  Serial.print(" cm");
+
+  // LED Control
+  if (cm < 25 && cm > 0) {
+    digitalWrite(led1, HIGH);
+    Serial.println("  --> LED ON");
+  } 
+  else {
+    digitalWrite(led1, LOW);
+    Serial.println("  --> LED OFF");
+  }
+
+  delay(1000);
+}
